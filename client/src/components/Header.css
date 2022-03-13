@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    font-size: clamp(.6rem,2vw,1rem);
+    background-color: var(--color-primary);
+}
+
+div.logo{
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+}
+header i.fa-globe {
+    margin-right: .5rem;
+    font-size: clamp(2rem,4vw,2.3rem);
+}
+
+
+button{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-self: right;
+    padding: .6rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--color-text);
+}
+button i {
+    margin-right: .5rem;
+    font-size: 1.5rem;
+
+}
+
+.light{
+    background-color: black;
+    border: solid 2px var(--color-sun);
+    border-radius: 5px;
+    color: var(--color-sun); 
+}
+
+.dark{
+    background-color: white;
+    border: solid 2px var(--color-moon);
+    border-radius: 5px;
+    color: var(--color-moon); 
+}
