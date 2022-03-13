@@ -1,10 +1,17 @@
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1rem 1.5rem;
     font-size: clamp(.6rem,2vw,1rem);
     background-color: var(--color-primary);
+}
+header div.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
 }
 
 div.logo{

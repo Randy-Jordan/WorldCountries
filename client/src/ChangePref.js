@@ -8,8 +8,8 @@ export  function toDark(){
 }
 
 export  function toLight(){
-    document.documentElement.style.setProperty('--color-bg','white')
+    document.documentElement.style.setProperty('--color-bg','#ecede8')
     document.documentElement.style.setProperty('--color-text','black')
-    document.documentElement.style.setProperty('--color-primary','#ecede8')
+    document.documentElement.style.setProperty('--color-primary','white')
     document.documentElement.style.setProperty('--color-secondary','#d4d4d2')
 }
